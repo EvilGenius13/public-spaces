@@ -7,3 +7,10 @@
   width: 100%;
   height: auto;
 }
+
+.hours {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}

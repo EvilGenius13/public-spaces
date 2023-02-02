@@ -1,8 +1,8 @@
 import React from "react";
 import './POPOSSpace.css'
 
-function POPOSSPace(props) {
-  const { name, image, address } = props;
+function POPOSSpace(props) {
+  const { name, image, address, hours } = props;
   return (
     <div className="POPOSSpace">
       <img src={`${process.env.PUBLIC_URL}/images/${image}`}     
@@ -12,8 +12,9 @@ function POPOSSPace(props) {
       />
       <h1>{name}</h1>
       <div>{address}</div>
+      <div className="hours">{hours}</div>
     </div>
   )
 }
 
-export default POPOSSPace;
+export default POPOSSpace;
